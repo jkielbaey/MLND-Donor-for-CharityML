@@ -15014,6 +15014,7 @@ AdaBoostClassifier
 <p>Adaptive Boost (or AdaBoost) is a supervised learning algorithm that combines the knowledge of multiple "weak" classifiers into a single, better classifier. Each item (i.e. a person) in the dataset has a number of attributes (i.e. educational level, gender, etc..). The goal of the classifier is to predict the value of a given attribute (i.e. income) based on the values of the other attributes.</p>
 <p>The weak learners used by AdaBoost will predict the income of a person based on a single attribute. Different weak learners will use diffirent attributes. Each of the weak learners will make correct and incorrect predictions. AdaBoost keeps track of the incorrect predictions and makes sure that the next weak learner puts more emphasis on making correct predictions for those that were incorrect by the previous weak learner. As new weak learners are added, the emphasis on the errors becomes larger. When enough weak learners have been added to the model, AdaBoost combines the errors of the different weak learners as illustrated in the image below.</p>
 <p><img src="https://github.com/jkielbaey/MLND-Donors-for-CharityML/raw/master/img/adaboost_illustration.png" alt="image.png"></p>
+<p>Source: <a href="https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe">Understanding AdaBoost</a> and Udacity Lessons on AdaBoost.</p>
 
 </div>
 </div>
