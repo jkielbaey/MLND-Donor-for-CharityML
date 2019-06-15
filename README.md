@@ -1,5 +1,7 @@
-# Data Scientist Nanodegree
+# Machine Learning Engineer Nanodegree
+
 # Supervised Learning
+
 ## Project: Finding Donors for CharityML
 
 ### Install
@@ -13,7 +15,7 @@ This project requires **Python 3.x** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+The easiest way to set up the envirnment is using [pipenv](https://docs.pipenv.org/en/latest/). The repository contain a Pipfile that installs all dependencies and Python modules.
 
 ### Code
 
@@ -21,14 +23,10 @@ Template code is provided in the `finding_donors.ipynb` notebook file. You will 
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory (that contains this README) and run the following command:
 
 ```bash
-ipython notebook finding_donors.ipynb
-```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
+pipenv run jupyter notebook finding_donors.ipynb
 ```
 
 This will open the iPython Notebook software and project file in your browser.
